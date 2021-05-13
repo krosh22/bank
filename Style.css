@@ -357,9 +357,38 @@ font-size: 13px;
         align-items: center;
         margin-top: 61px;
     }
+    .num{
+        font-size: 18px;
+        margin-right: 0;
+    }
+    .text-info {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .Credit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .inn {
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    .inn-info{
+        font-size: 15px;
+        text-align: center;
+    }
+    .address {
+       text-align: center;
+        font-size: 18px;
+    }
     .logo-Number {
         display: flex;
         flex-direction: column;
+    }
+    .request {
+        font-size: 13px;
     }
     .num {
         margin-top: 35px;
