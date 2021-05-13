@@ -389,6 +389,10 @@ font-size: 13px;
     }
     .request {
         font-size: 13px;
+        padding: 12px 40px;
+    }
+    .bik-info{
+        text-align: center;
     }
     .num {
         margin-top: 35px;
