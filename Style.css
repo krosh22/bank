@@ -376,7 +376,7 @@ font-size: 13px;
         flex-direction: column;
     }
     .inn-info{
-        font-size: 15px;
+        font-size: 13px;
         text-align: center;
     }
     .address {
@@ -392,6 +392,7 @@ font-size: 13px;
         padding: 12px 40px;
     }
     .bik-info{
+        font-size: 13px;
         text-align: center;
     }
     .num {
