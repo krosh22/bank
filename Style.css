@@ -586,4 +586,40 @@ font-size: 13px;
         color:#3090EE;
         text-decoration: #3090EE;
     }
+    .credit-info{
+        max-width: 367px;
+        height: 402px;
+        margin: 0 auto;
+    }
+    .logo-credit {
+        margin-top: 27px;
+        width: 227px;
+        height: 179px;
+    }
+    .credit-desk{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+        margin-right: 27px;
+        margin-left: 27px;
+        margin-top: 18px;
+        margin-bottom: 15px;
+    }
+    .btn-2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 18px;
+        color: #FFFFFF;
+        background: #3090EE;
+        border-radius: 7px;
+        padding: 17px 36px;
+        margin-bottom: 57px;
+    }
+
 }
