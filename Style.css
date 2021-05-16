@@ -46,8 +46,6 @@ input {
     padding: 12px 56px;
 }
 
-
-
 .wrapper-nav {
     max-width: 900px;
     text-align: center;
@@ -352,7 +350,6 @@ font-size: 13px;
 }
 .window-request {
     max-width: 400px;
-    display: none;
 }
 .request-title {
     margin-top: 50px;
@@ -455,6 +452,168 @@ font-size: 13px;
     background: #3090EE;
     border-radius: 7px;
     padding: 24px 46px;
+    margin-bottom: 57px;
+}
+
+.policy {
+    margin: 0 auto;
+    max-width: 1104px;
+    text-align: center;
+}
+.policy-price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    margin-top: 60px;
+    margin-bottom: 68px;
+}
+.life {
+    text-align: center;
+    max-width: 296px;
+}
+.life-box {
+    border: 1px solid #3090EE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 296px;
+
+}
+.life-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.ingo-price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3090EE;
+}
+.bank-price-ingo {
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.policy-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+}
+.bank-price-bck {
+    margin-bottom: 26px;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bank-price-ren {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 23px;
+}
+.banks {
+    margin: 0 auto;
+    max-width: 1002px;
+    border: 1px solid #3090EE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 68px;
+
+}
+.ingo-bank {
+    margin-left: 31px;
+    margin-right: 47px;
+    width: 147px;
+    height: 45px;
+}
+.bck-bank {
+    width: 166px;
+    height: 45px;
+    margin-right: 17px;
+}
+.ren-bank {
+    width: 150px;
+    height: 45px;
+    margin-left: 21px;
+}
+.banks-1 {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 21px;
+    justify-content: center;
+}
+.ren-bank-2 {
+    margin-left: 145px;
+    margin-right: 53px;
+}
+.ingo-bank-2 {
+    margin-right: 42px;
+}
+.bck-bank-2 {
+    margin-right: 27px;
+}
+.ingo-bank-3 {
+    margin-right: 157px;
+}
+.banks-2 {
+    display: flex;
+    margin-bottom: 26px;
+    justify-content: center;
+}
+.price-calc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3090EE;
+text-align: center;
+
+}
+
+.btn-3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    background: #3090EE;
+    border-radius: 7px;
+    padding: 24px 83px;
+    margin-bottom: 12px;
+}
+.btn-4 {
+
+    padding: 24px 145px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #3090EE;
+    border: 1.5px solid #3090EE;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.btn-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 57px;
 }
 @media screen and (max-width: 760px) {
@@ -622,4 +781,11 @@ font-size: 13px;
         margin-bottom: 57px;
     }
 
+}
+
+.modal-fix{
+    width: 400px!important;
+}
+.modal-fix-2 {
+    width: 944px!important;
 }

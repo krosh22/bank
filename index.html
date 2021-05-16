@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="plugin/modal/hystmodal.min.css">
 </head>
 <body>
 <header class="header">
     <a class="logo"><img src="img/logo.svg"></a>
     <div class="logo-Number">
         <a class="num" href="tel:+7-800-707-30-89">8 (800) 707-30-89</a>
-        <a href="#!" class="request">Оставить заяку</a>
+        <button data-hystmodal="#modal-request" class="request">Оставить заяку</button>
     </div>
 </header>
 
@@ -28,55 +29,172 @@
 </div>
 
 <form>
-<div class="calculation">
-    <div class="wrapper-calculation">
-        <div class="bank-1">
-         <a href="#!" class="logo-bank"><img class="cber" src="img/sber_logo-.jpg"></a>
-        <a href="#!" class="logo-bank"><img class="vtb" src="img/VTB_Bank_logo.jpg"></a>
-        <a href="#!" class="logo-bank"><img class="prom" src="img/promsvyazbank.jpg"></a>
-        <a href="#!" class="logo-bank"><img class="spb" src="img/bank-spb.jpg"></a>
-        </div>
-        <div class="bank-2">
-            <a href="#!" class="logo-bank"><img class="otk" src="img/Otkr_logo.jpg"></a>
-            <a href="#!" class="logo-bank"><img class="ros-sel" src="img/DMs76imhGAzFCbY-eWSv9f5svxGrP_NZ.jpg"></a>
-            <a href="#!" class="logo-bank"><img class="dom" src="img/Dom1.jpg"></a>
-            <a href="#!" class="logo-bank"><img class="uni" src="img/d1c154a722f945318e7051156a14062e1.jpg"></a>
-            <a href="#!" class="logo-bank"><img class="rai" src="img/c3b45836811.jpg"></a>
-        </div>
-        <hr class="hr_2">
-        <div class="input_wrapper">
-        <div class="Credit_amount">
-            <p class="Credit">Сумма кредита</p>
-            <input class="input-amount" type="text" name="credit amount" placeholder="Введите сумму">
-        </div>
-        <div class="name">
-            <p class="Credit">И. Ф. О. заемщика</p>
-            <input class="input-amount" type="text" name="credit amount" placeholder="Введите И.Ф.О.">
-        </div>
-        </div>
-        <p class="box_text">Что страхуем</p>
-        <div class="input-box">
-        <div class="box-life">
-            <input type="checkbox" class="custom-checkbox" id="checkbox-life" name="happy" value="yes">
-            <label for="checkbox-life">Жизнь (НС)</label>
-        </div>
-            <div class="box-property">
-                <input type="checkbox" class="custom-checkbox" id="checkbox" name="happy" value="yes">
-                <label for="checkbox">Имущество</label>
+    <div class="calculation">
+        <div class="wrapper-calculation">
+            <div class="bank-1">
+                <a href="#!" class="logo-bank"><img class="cber" src="img/sber_logo-.jpg"></a>
+                <a href="#!" class="logo-bank"><img class="vtb" src="img/VTB_Bank_logo.jpg"></a>
+                <a href="#!" class="logo-bank"><img class="prom" src="img/promsvyazbank.jpg"></a>
+                <a href="#!" class="logo-bank"><img class="spb" src="img/bank-spb.jpg"></a>
             </div>
+            <div class="bank-2">
+                <a href="#!" class="logo-bank"><img class="otk" src="img/Otkr_logo.jpg"></a>
+                <a href="#!" class="logo-bank"><img class="ros-sel" src="img/DMs76imhGAzFCbY-eWSv9f5svxGrP_NZ.jpg"></a>
+                <a href="#!" class="logo-bank"><img class="dom" src="img/Dom1.jpg"></a>
+                <a href="#!" class="logo-bank"><img class="uni" src="img/d1c154a722f945318e7051156a14062e1.jpg"></a>
+                <a href="#!" class="logo-bank"><img class="rai" src="img/c3b45836811.jpg"></a>
+            </div>
+            <hr class="hr_2">
+            <div class="input_wrapper">
+                <div class="Credit_amount">
+                    <p class="Credit">Сумма кредита</p>
+                    <input class="input-amount" type="text" name="credit amount" placeholder="Введите сумму">
+                </div>
+                <div class="name">
+                    <p class="Credit">И. Ф. О. заемщика</p>
+                    <input class="input-amount" type="text" name="credit amount" placeholder="Введите И.Ф.О.">
+                </div>
+            </div>
+            <p class="box_text">Что страхуем</p>
+            <div class="input-box">
+                <div class="box-life">
+                    <input type="checkbox" class="custom-checkbox" id="checkbox-life" name="happy" value="yes">
+                    <label for="checkbox-life">Жизнь (НС)</label>
+                </div>
+                <div class="box-property">
+                    <input type="checkbox" class="custom-checkbox" id="checkbox" name="happy" value="yes">
+                    <label for="checkbox">Имущество</label>
+                </div>
+
+            </div>
+            <div class="button" data-hystmodal="#modal-credit">
+                <a class="button_calculator">РАССЧИТАТЬ</a>
+            </div>
+        </div>
 
     </div>
-        <div class="button">
-            <a class="button_calculator">РАССЧИТАТЬ</a>
+</form>
+<div class="hystmodal" id="modal-request" aria-hidden="true">
+    <div class="hystmodal__wrap">
+        <div class="hystmodal__window modal-fix" role="dialog" aria-modal="true">
+            <div class="window-request">
+                <div class="wrapper-request">
+                    <h3 class="request-title">Оставить заявку</h3>
+                    <input class="input-request" type="text" placeholder="введите телефон">
+                    <input class="input-request" type="text" placeholder="введите Имя">
+                    <a href="#!" class="btn">оставить заявку</a>
+                    <p class="request-desk">Нажимая «Оставить заявку», вы даёте согласие на обработку своих персональных
+                        данных в
+                        соответствии с Федеральным законом №152-ФЗ «О персональных данных» и принимаете <a
+                                class="info-desk"
+                                href="#!">условия</a></p>
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
-</form>
+<div class="hystmodal" id="modal-credit" aria-hidden="true">
+    <div class="hystmodal__wrap">
+        <div class="hystmodal__window modal-fix-2" role="dialog" aria-modal="true">
+            <div class="credit-info">
+                <div class="credit-wrapper">
+                    <img class="logo-credit" src="img/logo-credit.jpg">
+                    <p class="credit-desk">После расчета оставьте заявку на оформление и Вы получите “Комиссионное
+                        Вознагрождение”
+                        от Страховой компании. Сэкономь деньги клиенту и заработай Сам. </p>
+                    <a href="#1" class="btn-2">Оформить полис через нашу компанию</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hystmodal" id="modal-policy" aria-hidden="true">
+    <div class="hystmodal__wrap">
+        <div class="hystmodal__window modal-fix" role="dialog" aria-modal="true">
+            <div class="policy">
+                <h2 class="policy-price">СТОИМОСТЬ ПОЛИСА</h2>
+                <div class="policy-box">
+                    <div class="life">
+                        <p class="life-title">Страхование жизни</p>
+                        <div class="life-box">
+                            <div class="bank-price-ingo">
+                                <a class="ingo"> <img src="img/ingo.jpg"></a>
+                                <p class="ingo-price">4р</p>
+                            </div>
+                            <div class="bank-price-bck">
+                                <a class="bck"> <img src="img/bck.jpg"></a>
+                                <p class="ingo-price">4р</p>
+                            </div>
+                            <div class="bank-price-ren">
+                                <a class="ren"> <img src="img/ren.jpg"></a>
+                                <p class="ingo-price">4р</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="life">
+                        <p class="life-title">Страхование имущества</p>
+                        <div class="life-box">
+                            <div class="bank-price-ingo">
+                                <a class="ingo"> <img src="img/ingo.jpg"></a>
+                                <p class="ingo-price">4р</p>
+                            </div>
+                            <div class="bank-price-bck">
+                                <a class="bck"> <img src="img/bck.jpg"></a>
+                                <p class="ingo-price">Звоните</p>
+                            </div>
+                            <div class="bank-price-ren">
+                                <a class="ren"> <img src="img/ren.jpg"></a>
+                                <p class="ingo-price">4р</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="life">
+                        <p class="life-title">Общая сумма</p>
+                        <div class="life-box">
+                            <div class="bank-price-ingo">
+                                <a class="ingo"> <img src="img/ingo.jpg"></a>
+                                <p class="ingo-price">4р</p>
+                            </div>
+                            <div class="bank-price-bck">
+                                <a class="bck"> <img src="img/bck.jpg"></a>
+                                <p class="ingo-price">Звоните</p>
+                            </div>
+                            <div class="bank-price-ren">
+                                <a class="ren"> <img src="img/ren.jpg"></a>
+                                <p class="ingo-price">4р</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banks">
+                    <div class="banks-1">
+                        <a class="ingo-bank"> <img src="img/ingo.jpg"></a>
+                        <a class="bck-bank"> <img src="img/bck.jpg"></a>
+                        <a class="ren-bank"> <img src="img/ren.jpg"></a>
+                        <a class="ingo-bank"> <img src="img/ingo.jpg"></a>
+                        <a class="bck-bank"> <img src="img/bck.jpg"></a>
+                    </div>
+                    <div class="banks-2">
+                        <a class="ren-bank-2"> <img src="img/ren.jpg"></a>
+                        <a class="ingo-bank-2"> <img src="img/ingo.jpg"></a>
+                        <a class="bck-bank-2"> <img src="img/bck.jpg"></a>
+                        <a class="ingo-bank-3"> <img src="img/ingo.jpg"></a>
+                    </div>
+                    <p class="price-calc">расчеты предосталвяются по индивидуальному запросу </p>
+                </div>
+                <div class="btn-box">
+                    <a href="#!" class="btn-3">Рассчитать с другими данными</a>
+                    <a href="#!" class="btn-4">Оставить заявку</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <footer class="footer">
     <div class="footer-info">
-  <a href="#!"><img  class="logo-footer" src="img/Group2.svg"></a>
+        <a href="#!"><img class="logo-footer" src="img/Group2.svg"></a>
         <div class="info">
             <div class="inn">
                 <p class="inn-info">ИНН : 560705021410</p>
@@ -90,21 +208,7 @@
     </div>
 </footer>
 
-<div class="window-request">
-    <div class="wrapper-request">
-    <h3 class="request-title">Оставить заявку</h3>
-    <input class="input-request"  type="text" placeholder="введите телефон">
-    <input class="input-request"  type="text" placeholder="введите Имя">
-    <a href="#!" class="btn">оставить заявку</a>
-    <p class="request-desk">Нажимая «Оставить заявку», вы даёте согласие на обработку своих персональных данных в соответствии с Федеральным законом №152-ФЗ «О персональных данных» и принимаете  <a class="info-desk" href="#!">условия</a></p>
-    </div>
-    </div>
-<div class="credit-info">
-    <div class="credit-wrapper">
-    <img class="logo-credit" src="img/logo-credit.jpg">
-        <p class="credit-desk">После расчета оставьте заявку на оформление и Вы получите “Комиссионное Вознагрождение” от Страховой компании. Сэкономь деньги клиенту и заработай Сам. </p>
-  <a  href="#1" class="btn-2">Оформить полис через нашу компанию</a>
-    </div>
-</div>
+<script src="plugin/modal/hystmodal.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
