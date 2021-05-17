@@ -8,10 +8,10 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
 input {
     outline: none;
 }
-
 
 
 .header {
@@ -21,10 +21,12 @@ input {
     margin-left: 100px;
     margin-right: 100px;
 }
+
 .logo-Number {
     display: flex;
     align-items: center;
 }
+
 .num {
     font-family: Montserrat;
     font-style: normal;
@@ -34,6 +36,7 @@ input {
     color: #000000;
     margin-right: 50px;
 }
+
 .request {
     font-family: Montserrat;
     font-style: normal;
@@ -53,10 +56,12 @@ input {
     margin-top: 70px;
     box-sizing: border-box;
 }
+
 .two {
     margin-left: 155px;
     margin-right: 155px;
 }
+
 .nav {
     text-transform: uppercase;
     font-family: Montserrat;
@@ -68,18 +73,21 @@ input {
     border-bottom: 1px white;
     padding: 0px 0px 19px;
 }
+
 .nav:hover {
     border-bottom: 2px solid;
     padding: 0px 0px 19px;
 }
+
 .hr {
     margin: 0;
     color: rgba(196, 196, 196, 0.32);
     margin-top: 20px;
 }
+
 .text-info {
     margin-top: 35px;
-    margin-bottom: 25px ;
+    margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat;
     font-style: normal;
@@ -89,6 +97,7 @@ input {
     color: #000000;
     text-align: center;
 }
+
 .wrapper-calculation {
     max-width: 1400px;
     margin: 0 auto;
@@ -96,45 +105,53 @@ input {
     box-sizing: border-box;
     margin-bottom: 60px;
 }
+
 .logo-bank {
     max-width: 250px;
     max-height: 80px;
 }
+
 .cber {
     padding: 10px 35px 10px 35px;
     background: #FFFFFF;
     box-shadow: 0px 3.05085px 11.4407px rgba(0, 0, 0, 0.13);
     margin-right: 10px;
 }
+
 .prom {
     background: #FFFFFF;
     box-shadow: 0px 3.05085px 11.4407px rgba(0, 0, 0, 0.13);
     padding: 0px 37px 0px 37px;
     margin-right: 10px;
 }
+
 .vtb {
     padding: 15px 67px 15px 67px;
     background: #FFFFFF;
     box-shadow: 0px 3.05085px 11.4407px rgba(0, 0, 0, 0.13);
     margin-right: 10px;
 }
+
 .spb {
     padding: 2px 17px 3px 17px;
     background: #FFFFFF;
     box-shadow: 0px 3.05085px 11.4407px rgba(0, 0, 0, 0.13);
 }
+
 .otk {
     padding: 5px 26px 5px 26px;
     background: #FFFFFF;
     box-shadow: 0px 3.05085px 11.4407px rgba(0, 0, 0, 0.13);
     margin-right: 10px;
 }
-.ros-sel{
+
+.ros-sel {
     padding: 7px 15px 5px 15px;
     background: #FFFFFF;
     box-shadow: 0px 3.05085px 11.4407px rgba(0, 0, 0, 0.13);
     margin-right: 10px;
 }
+
 .dom {
     padding: 0px 59px 0px 59px;
     background: #FFFFFF;
@@ -143,6 +160,7 @@ input {
     max-height: 80px;
     margin-right: 10px;
 }
+
 .uni {
     padding: 0px 48px 0px 48px;
     background: #FFFFFF;
@@ -151,6 +169,7 @@ input {
     max-height: 80px;
     margin-right: 10px;
 }
+
 .rai {
     max-width: 250px;
     max-height: 80px;
@@ -158,6 +177,7 @@ input {
     box-shadow: 0px 3.05085px 11.4407px rgba(0, 0, 0, 0.13);
     padding: 0px 33px 0px 33px;
 }
+
 .bank-1 {
     margin: 0 auto;
     text-align: center;
@@ -165,15 +185,18 @@ input {
     margin-bottom: 17px;
 
 }
+
 .bank-2 {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 15px;
 }
+
 .hr_2 {
     border: 1px solid rgba(47, 128, 237, 0.42);
     margin-bottom: 34px;
 }
+
 .Credit {
     font-family: Montserrat;
     font-style: normal;
@@ -182,26 +205,31 @@ input {
     line-height: 18px;
     color: #000000;
 }
+
 .input-amount {
     border: 1px solid rgba(0, 0, 0, 0.31);
-box-sizing: border-box;
-border-radius: 5px;
-width: 239px;
-height: 39px;
-color: #000000;
-font-size: 13px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 239px;
+    height: 39px;
+    color: #000000;
+    font-size: 13px;
     padding-left: 21px;
 }
-.Credit_amount{
+
+.Credit_amount {
     margin-left: 57px;
 }
+
 .name {
     margin-left: 73px;
 }
+
 .input_wrapper {
     display: flex;
     margin-bottom: 29px;
 }
+
 .box_text {
     font-family: Montserrat;
     font-style: normal;
@@ -210,12 +238,14 @@ font-size: 13px;
     line-height: 18px;
     color: #000000;
 }
-.custom-checkbox+label {
+
+.custom-checkbox + label {
     display: inline-flex;
     align-items: center;
     user-select: none;
 }
-.custom-checkbox+label::before {
+
+.custom-checkbox + label::before {
     content: '';
     display: inline-block;
     width: 1em;
@@ -229,48 +259,60 @@ font-size: 13px;
     background-position: center center;
     background-size: 50% 50%;
 }
+
 .custom-checkbox {
     position: absolute;
     z-index: -1;
     opacity: 0;
 }
-.custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+
+.custom-checkbox:not(:disabled):not(:checked) + label:hover::before {
     border-color: #b3d7ff;
 }
-.custom-checkbox:not(:disabled):active+label::before {
+
+.custom-checkbox:not(:disabled):active + label::before {
     background-color: #b3d7ff;
     border-color: #b3d7ff;
 }
-.custom-checkbox:focus+label::before {
+
+.custom-checkbox:focus + label::before {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
-.custom-checkbox:focus:not(:checked)+label::before {
+
+.custom-checkbox:focus:not(:checked) + label::before {
     border-color: #80bdff;
 }
-.custom-checkbox:disabled+label::before {
+
+.custom-checkbox:disabled + label::before {
     background-color: #e9ecef;
 }
-.custom-checkbox:checked+label::before {
+
+.custom-checkbox:checked + label::before {
     border-color: #0b76ef;
     background-color: #0b76ef;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
+
 .input-box {
     display: flex;
     margin-bottom: 34px;
 }
+
 .box_text {
     margin-left: 55px;
     margin-bottom: 20px;
 }
+
 .box-life {
     margin-left: 57px;
 }
+
 .box-property {
     margin-left: 50px;
 }
+
 .button_calculator {
-    text-transform:uppercase;
+    text-transform: uppercase;
     padding: 15px 64px;
     background: #3090EE;
     border-radius: 7px;
@@ -281,19 +323,23 @@ font-size: 13px;
     line-height: 18px;
     color: #FFFFFF;
 }
+
 .button {
     display: flex;
     justify-content: center;
     margin-bottom: 37px;
 }
+
 .footer {
     width: 100%;
-    background-color:  #333333;
+    background-color: #333333;
 }
+
 .logo-footer {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 .footer-info {
     margin: 0 auto;
     margin-left: 100px;
@@ -301,11 +347,13 @@ font-size: 13px;
     display: flex;
     justify-content: space-between;
 }
+
 .inn {
     display: flex;
     margin-bottom: 20px;
 
 }
+
 .bik-info {
     font-family: Montserrat;
     font-style: normal;
@@ -315,6 +363,7 @@ font-size: 13px;
 
     color: #FFFFFF;
 }
+
 .address {
     font-family: Montserrat;
     font-style: normal;
@@ -324,6 +373,7 @@ font-size: 13px;
 
     color: #FFFFFF;
 }
+
 .inn-info {
     margin-right: 60px;
     font-family: Montserrat;
@@ -333,9 +383,11 @@ font-size: 13px;
     line-height: 20px;
     color: #FFFFFF;
 }
+
 .info {
     margin-top: 53px;
 }
+
 .number {
     font-family: Montserrat;
     font-style: normal;
@@ -345,12 +397,15 @@ font-size: 13px;
     color: #FFFFFF;
     margin-top: 68px;
 }
+
 .footer-Number {
     display: flex;
 }
+
 .window-request {
     max-width: 400px;
 }
+
 .request-title {
     margin-top: 50px;
     margin-bottom: 15px;
@@ -362,6 +417,7 @@ font-size: 13px;
     color: #4F4F4F;
     text-align: center;
 }
+
 .input-request {
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
@@ -380,6 +436,10 @@ font-size: 13px;
     width: 256px;
     height: 40px;
 }
+.select {
+    margin-left: 50px;
+}
+
 .request-desk {
     font-family: Gotham Pro;
     font-style: normal;
@@ -393,18 +453,21 @@ font-size: 13px;
     margin-bottom: 66px;
     margin-top: 12px;
 }
+
 .wrapper-request {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
 
 }
+
 .wrapper-request {
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
-.btn  {
+
+.btn {
     font-family: Gotham Pro;
     font-style: normal;
     font-weight: normal;
@@ -419,14 +482,17 @@ font-size: 13px;
     margin-left: 71px;
     margin-right: 71px;
 }
+
 .credit-info {
     max-width: 944px;
     height: 801px;
 }
+
 .credit-wrapper {
     text-align: center;
 }
-.credit-desk{
+
+.credit-desk {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -439,9 +505,11 @@ font-size: 13px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 .logo-credit {
     margin-top: 56px;
 }
+
 .btn-2 {
     font-family: Montserrat;
     font-style: normal;
@@ -460,7 +528,8 @@ font-size: 13px;
     max-width: 1104px;
     text-align: center;
 }
-.policy-price{
+
+.policy-price {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -470,10 +539,12 @@ font-size: 13px;
     margin-top: 60px;
     margin-bottom: 68px;
 }
+
 .life {
     text-align: center;
     max-width: 296px;
 }
+
 .life-box {
     border: 1px solid #3090EE;
     box-sizing: border-box;
@@ -481,6 +552,7 @@ font-size: 13px;
     width: 296px;
 
 }
+
 .life-title {
     font-family: Montserrat;
     font-style: normal;
@@ -490,6 +562,7 @@ font-size: 13px;
     color: #000000;
     margin-bottom: 20px;
 }
+
 .ingo-price {
     font-family: Montserrat;
     font-style: normal;
@@ -498,17 +571,20 @@ font-size: 13px;
     line-height: 24px;
     color: #3090EE;
 }
+
 .bank-price-ingo {
     margin-top: 31px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .policy-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 33px;
 }
+
 .bank-price-bck {
     margin-bottom: 26px;
     margin-top: 26px;
@@ -516,12 +592,14 @@ font-size: 13px;
     justify-content: space-around;
     align-items: center;
 }
+
 .bank-price-ren {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 23px;
 }
+
 .banks {
     margin: 0 auto;
     max-width: 1002px;
@@ -531,46 +609,56 @@ font-size: 13px;
     margin-bottom: 68px;
 
 }
+
 .ingo-bank {
     margin-left: 31px;
     margin-right: 47px;
     width: 147px;
     height: 45px;
 }
+
 .bck-bank {
     width: 166px;
     height: 45px;
     margin-right: 17px;
 }
+
 .ren-bank {
     width: 150px;
     height: 45px;
     margin-left: 21px;
 }
+
 .banks-1 {
     display: flex;
     margin-top: 25px;
     margin-bottom: 21px;
     justify-content: center;
 }
+
 .ren-bank-2 {
     margin-left: 145px;
     margin-right: 53px;
 }
+
 .ingo-bank-2 {
     margin-right: 42px;
 }
+
 .bck-bank-2 {
     margin-right: 27px;
 }
+
 .ingo-bank-3 {
     margin-right: 157px;
 }
+
 .banks-2 {
     display: flex;
     margin-bottom: 26px;
     justify-content: center;
 }
+
 .price-calc {
     font-family: Montserrat;
     font-style: normal;
@@ -578,8 +666,12 @@ font-size: 13px;
     font-size: 20px;
     line-height: 24px;
     color: #3090EE;
-text-align: center;
+    text-align: center;
 
+}
+
+.slider-class {
+    display: none !important;
 }
 
 .btn-3 {
@@ -595,6 +687,7 @@ text-align: center;
     padding: 24px 83px;
     margin-bottom: 12px;
 }
+
 .btn-4 {
 
     padding: 24px 145px;
@@ -609,6 +702,7 @@ text-align: center;
     box-sizing: border-box;
     border-radius: 7px;
 }
+
 .btn-box {
     display: flex;
     flex-direction: column;
@@ -616,7 +710,102 @@ text-align: center;
     align-items: center;
     margin-bottom: 57px;
 }
+
+.slider-content {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-sber {
+    background-image: url("img/sber_logo-.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-vtb {
+    background-image: url("img/VTB_Bank_logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-prom {
+    background-image: url("img/promsvyazbank.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-spb {
+    background-image: url("img/bank-spb.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-otk {
+    background-image: url("img/Otkr_logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-ros-sel {
+    background-image: url("img/DMs76imhGAzFCbY-eWSv9f5svxGrP_NZ.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-dom {
+    background-image: url("img/Dom1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-uni {
+    background-image: url("img/d1c154a722f945318e7051156a14062e1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-rai {
+    background-image: url("img/c3b45836811.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.modal-fix {
+    width: 400px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.modal-fix-2 {
+    width: 944px !important;
+}
+
+.modal-fix-3 {
+    width: 1104px !important;
+}
+
+
 @media screen and (max-width: 760px) {
+    .slider-class {
+        display: block !important;
+    }
+
+    .bank-1, .bank-2 {
+        display: none;
+    }
+
     .header {
         display: flex;
         flex-direction: column;
@@ -624,49 +813,60 @@ text-align: center;
         align-items: center;
         margin-top: 61px;
     }
-    .num{
+
+    .num {
         font-size: 18px;
         margin-right: 0;
     }
+
     .text-info {
         font-size: 16px;
         line-height: 30px;
     }
+
     .Credit {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .inn {
         display: flex;
         margin-bottom: 20px;
         flex-direction: column;
     }
-    .inn-info{
+
+    .inn-info {
         margin-right: 0;
         font-size: 13px;
         text-align: center;
     }
+
     .address {
-       text-align: center;
+        text-align: center;
         font-size: 18px;
     }
+
     .number {
         margin-top: 40px;
         font-size: 20px;
     }
+
     .logo-Number {
         display: flex;
         flex-direction: column;
     }
+
     .request {
         font-size: 13px;
         padding: 12px 40px;
     }
-    .bik-info{
+
+    .bik-info {
         font-size: 13px;
         text-align: center;
     }
+
     .num {
         margin-top: 35px;
         display: flex;
@@ -674,88 +874,109 @@ text-align: center;
         justify-content: center;
         margin-bottom: 28px;
     }
+
     .wrapper-nav {
         display: none;
     }
+
     .hr {
         display: none;
     }
+
     .hr_2 {
         display: none;
     }
+
     .input_wrapper {
         display: flex;
         margin-bottom: 29px;
         flex-direction: column;
         align-items: center;
     }
+
     .name {
         margin-left: 0;
     }
+
     .input-box {
         display: flex;
         margin-bottom: 34px;
         align-items: center;
         justify-content: center;
     }
+
     .box-life {
         margin-left: 0;
     }
+
     .box_text {
         display: flex;
         justify-content: center;
         margin-left: 0;
     }
+
     .footer-info {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
+
     .Credit_amount {
         margin-left: 0;
     }
+
     .wrapper-calculation {
         border: none;
     }
+
     .logo-footer {
         margin-bottom: 0;
     }
+
     .request-desk {
         margin-right: 62px;
         margin-left: 61px;
     }
+
     .window-request {
         max-width: 360px;
         margin: 0 auto;
         display: block;
     }
+
     .request-title {
         text-align: center;
     }
+
     .input-request {
         margin-left: 51px;
         margin-right: 52px;
     }
+
     .btn {
         margin-left: 51px;
         margin-right: 52px;
     }
+
     .info-desk {
-        color:#3090EE;
+        color: #3090EE;
         text-decoration: #3090EE;
     }
-    .credit-info{
+
+    .credit-info {
         max-width: 367px;
         height: 402px;
         margin: 0 auto;
     }
+
     .logo-credit {
         margin-top: 27px;
         width: 227px;
         height: 179px;
     }
-    .credit-desk{
+
+    .credit-desk {
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
@@ -768,6 +989,7 @@ text-align: center;
         margin-top: 18px;
         margin-bottom: 15px;
     }
+
     .btn-2 {
         font-family: Montserrat;
         font-style: normal;
@@ -781,11 +1003,52 @@ text-align: center;
         margin-bottom: 57px;
     }
 
+    .modal-fix {
+        width: 363px !important;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+
+    .modal-fix-2 {
+        width: 367px !important;
+    }
+
+    .modal-fix-3 {
+        width: 360px !important;
+    }
+    .banks{
+        display: none;
+    }
+    .box-1 {
+        display: none;
+    }
+    .box-3 {
+        display: none;
+    }
+    .btn-4 {
+        padding: 14px 116px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 18px;
+        color: #3090EE;
+        border: 1.5px solid #3090EE;
+        box-sizing: border-box;
+        border-radius: 7px;
+    }
+    .btn-3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 18px;
+        color: #FFFFFF;
+        background: #3090EE;
+        border-radius: 7px;
+        padding: 24px 83px;
+        margin-bottom: 12px;
+    }
 }
 
-.modal-fix{
-    width: 400px!important;
-}
-.modal-fix-2 {
-    width: 944px!important;
-}

@@ -8,13 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="plugin/modal/hystmodal.min.css">
+    <link rel="stylesheet" type="text/css" href="plugin/slider/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="plugin/slider/slick/slick-theme.css"/>
 </head>
 <body>
 <header class="header">
     <a class="logo"><img src="img/logo.svg"></a>
     <div class="logo-Number">
         <a class="num" href="tel:+7-800-707-30-89">8 (800) 707-30-89</a>
-        <button data-hystmodal="#modal-request" class="request">Оставить заяку</button>
+        <a data-hystmodal="#modal-request" class="request">Оставить заяку</a>
     </div>
 </header>
 
@@ -44,6 +46,35 @@
                 <a href="#!" class="logo-bank"><img class="uni" src="img/d1c154a722f945318e7051156a14062e1.jpg"></a>
                 <a href="#!" class="logo-bank"><img class="rai" src="img/c3b45836811.jpg"></a>
             </div>
+            <div class="slider-class">
+                <div>
+                    <div class="slider-content bg-sber"></div>
+                </div>
+                <div>
+                    <div class="slider-content bg-vtb"></div>
+                </div>
+                <div>
+                    <div class="slider-content bg-prom"></div>
+                </div>
+                <div>
+                    <div class="slider-content bg-spb"></div>
+                </div>
+                <div>
+                    <div class="slider-content bg-otk"></div>
+                </div>
+                <div>
+                    <div class="slider-content bg-ros-sel"></div>
+                </div>
+                <div>
+                    <div class="slider-content bg-dom"></div>
+                </div>
+                <div>
+                    <div class="slider-content bg-uni"></div>
+                </div>
+                <div>
+                    <div class="slider-content bg-rai"></div>
+                </div>
+            </div>
             <hr class="hr_2">
             <div class="input_wrapper">
                 <div class="Credit_amount">
@@ -66,6 +97,47 @@
                     <label for="checkbox">Имущество</label>
                 </div>
 
+            </div>
+
+            <p class="box_text">Выбирите пол </p>
+            <div class="input-box">
+                <div class="box-life">
+                    <input type="radio" class="custom-checkbox" id="checkbox-radio" name="happy" value="yes">
+                    <label for="checkbox-radio">Ж</label>
+                </div>
+                <div class="box-property">
+                    <input type="radio" class="custom-checkbox" id="checkbox-2" name="happy" value="yes">
+                    <label for="checkbox-2">М</label>
+                </div>
+                <label>
+                <select class="select">
+                    <option disabled>Выберите год рождения</option>
+                    <option>2003</option>
+                    <option>2002</option>
+                    <option>2001</option>
+                    <option>2000</option>
+                    <option>1999</option>
+                    <option>1998</option>
+                    <option>1997</option>
+                    <option>1996</option>
+                    <option>1995</option>
+                    <option>1994</option>
+                    <option>1993</option>
+                    <option>1992</option>
+                    <option>1991</option>
+                    <option>1990</option>
+                    <option>1989</option>
+                    <option>1988</option>
+                    <option>1987</option>
+                    <option>1986</option>
+                    <option>1985</option>
+                    <option>1984</option>
+                    <option>1983</option>
+                    <option>1982</option>
+                    <option>1981</option>
+                    <option>1980</option>
+                </select>
+                </label>
             </div>
             <div class="button" data-hystmodal="#modal-credit">
                 <a class="button_calculator">РАССЧИТАТЬ</a>
@@ -102,7 +174,7 @@
                     <p class="credit-desk">После расчета оставьте заявку на оформление и Вы получите “Комиссионное
                         Вознагрождение”
                         от Страховой компании. Сэкономь деньги клиенту и заработай Сам. </p>
-                    <a href="#1" class="btn-2">Оформить полис через нашу компанию</a>
+                    <a href="#1" class="btn-2" data-hystmodal="#modal-policy">Оформить полис через нашу компанию</a>
                 </div>
             </div>
         </div>
@@ -110,11 +182,11 @@
 </div>
 <div class="hystmodal" id="modal-policy" aria-hidden="true">
     <div class="hystmodal__wrap">
-        <div class="hystmodal__window modal-fix" role="dialog" aria-modal="true">
+        <div class="hystmodal__window modal-fix-3" role="dialog" aria-modal="true">
             <div class="policy">
                 <h2 class="policy-price">СТОИМОСТЬ ПОЛИСА</h2>
                 <div class="policy-box">
-                    <div class="life">
+                    <div class="life box-1">
                         <p class="life-title">Страхование жизни</p>
                         <div class="life-box">
                             <div class="bank-price-ingo">
@@ -132,7 +204,7 @@
                         </div>
                     </div>
 
-                    <div class="life">
+                    <div class="life box-2">
                         <p class="life-title">Страхование имущества</p>
                         <div class="life-box">
                             <div class="bank-price-ingo">
@@ -150,7 +222,7 @@
                         </div>
                     </div>
 
-                    <div class="life">
+                    <div class="life box-3">
                         <p class="life-title">Общая сумма</p>
                         <div class="life-box">
                             <div class="bank-price-ingo">
@@ -207,6 +279,10 @@
         </div>
     </div>
 </footer>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="plugin/slider/slick/slick.min.js"></script>
 
 <script src="plugin/modal/hystmodal.min.js"></script>
 <script src="main.js"></script>
