@@ -28,3 +28,29 @@ $(".slider-class").slick({
             }
         },]
 });
+
+$(".slider-modal").slick({
+    centerPadding: '10px',
+    slidesToShow: 1,
+    responsive: [
+        {
+            breakpoint: 2000,
+            settings: "unslick"
+        },
+        {
+            breakpoint: 1024,
+            settings: "unslick"
+        },
+        {
+            breakpoint: 768,
+            settings: "unslick"
+        },
+        {
+            breakpoint: 760,
+            settings: {
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        },]
+});
